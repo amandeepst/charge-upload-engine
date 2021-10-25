@@ -1,0 +1,5 @@
+"PRICEITEM_CD","PI_STATUS_FLG","UOM_CD","PRICE_ITEM_TYPE_FLG","ASGN_GLOBAL_PL_SW","BUNDLE_SW","BUNDLE_TYPE_FLG","BUS_OBJ_CD","VERSION","BO_DATA_AREA","SA_TYPE_CD","ACCESS_GRP_CD","IGNORE_SW","PRICEITEM_TYPE","BEST_OF_FLG","PRICEITEM_AVAIL_FOR"
+"MAH30102                      ","ACTV","0289","    ","Y","N","    ","C1_PRICEITEM_BO               ",1," ","CHRG    ","            ","N","FEES                          ","","PRBL"
+"MAH40102                      ","ACTV","0290","    ","Y","N","    ","C1_PRICEITEM_BO               ",1," ","CHRG    ","            ","N","FEES                          ","","PRBL"
+"MADH0210                      ","ACTV","0291","    ","Y","N","    ","C1_PRICEITEM_BO               ",1," ","CHRG    ","            ","N","FEES                          ","","PRBL"
+"MADH00JF                      ","ACTV","0292","    ","Y","N","    ","C1_PRICEITEM_BO               ",1," ","CHRG    ","            ","N","FEES                          ","","PRBL"

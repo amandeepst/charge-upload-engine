@@ -1,0 +1,19 @@
+select count(*) from cm_rec_chg_err where (product_id=:product
+                and lcp=:lcp
+                and party_id=:partyId
+                and (frequency_id =:frequencyId OR :frequencyId is null)
+                and (currency_cd=:currency OR :currency is null)
+                and (price=:price OR :price is null)
+                 and quantity =:quantity
+                 and valid_from= :validFrom
+                 and valid_to= :validTo
+                 and status=:status
+                and (source_id= :sourceId OR :sourceId is null)
+                and division=:division
+                and sub_acct =:subAccount
+                and trim(txn_header_id)= :txnHeaderId and
+                (cutoff_dt=:cutOffDate OR :cutOffDate is null)
+                and (code=:code OR :code is null) and (reason=:reason OR :reason is null)
+                 and retry_count=:retyCount
+                 and batch_code = (SELECT batch_code FROM  batch_history WHERE
+                 state = 'COMPLETED' ORDER BY  created_at DESC FETCH FIRST 1 ROWS ONLY))

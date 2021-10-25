@@ -1,0 +1,3 @@
+"PRICEITEM_CD","CHAR_TYPE_CD","EFFDT","ADHOC_CHAR_VAL","CHAR_VAL","CHAR_VAL_FK1","CHAR_VAL_FK2","CHAR_VAL_FK3","CHAR_VAL_FK4","CHAR_VAL_FK5","SRCH_CHAR_VAL","VERSION"
+"MIGCHRG","NON_ZERO","2001-01-01","Y","                "," "," "," "," "," "," ",1
+"MIGCHRG","CLASS","2001-01-01"," ","MIGRATION"," "," "," "," "," "," ",1
