@@ -1,0 +1,1 @@
+ALTER TABLE error_transaction MODIFY first_failure_at DATE;

@@ -1,0 +1,1 @@
+CREATE INDEX error_transaction_id_idx ON error_transaction(txn_header_id);

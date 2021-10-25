@@ -1,0 +1,1 @@
+DROP VIEW vw_pending_billable_charge_err;

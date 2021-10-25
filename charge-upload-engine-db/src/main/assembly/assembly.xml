@@ -1,0 +1,22 @@
+<assembly xmlns="http://maven.apache.org/ASSEMBLY/2.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.0.0 http://maven.apache.org/xsd/assembly-2.0.0.xsd">
+	<id>charge-upload-engine-db</id>
+	<formats>
+		<format>zip</format>
+	</formats>
+	<baseDirectory>/</baseDirectory>
+	<fileSets>
+		<fileSet>
+			<directory>${project.basedir}/src/main/database/migrations/oracle/CBE_CUE_OWNER/scripts</directory>
+			<outputDirectory>./migrations/oracle/CBE_CUE_OWNER/scripts</outputDirectory>
+		</fileSet>
+		<fileSet>
+			<directory>${project.basedir}/src/main/assembly/</directory>
+			<outputDirectory>./migrations/oracle/CBE_CUE_OWNER/</outputDirectory>
+			<includes>
+				<include>flyway.conf</include>
+			</includes>
+		</fileSet>
+	</fileSets>
+</assembly>

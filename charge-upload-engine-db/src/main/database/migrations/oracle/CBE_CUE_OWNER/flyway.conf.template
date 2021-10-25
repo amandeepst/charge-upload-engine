@@ -1,0 +1,11 @@
+flyway.url=~~~databaseUrl~~~
+flyway.user=~~~databaseSchemaOwner~~~
+flyway.password=~~~databasePassword~~~
+flyway.cleanDisabled=~~~flywayDisallowClean~~~
+flyway.locations=filesystem:~~~databaseOwnerConfigLocation~~~
+
+flyway.placeholderReplacement=true
+flyway.baselineOnMigrate=true
+flyway.baselineVersion=0
+flyway.outOfOrder=true
+flyway.ignoreMissingMigrations=true
