@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>charge-upload-engine</artifactId>
+    <groupId>com.worldpay.pms</groupId>
+    <version>1.0.66-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>charge-upload-engine-cisadm-db</artifactId>
+
+
+  <properties>
+    <databaseUrl>${database.url}</databaseUrl>
+    <databasePassword>${database.password}</databasePassword>
+
+    <databaseSchemaOwner>CISADM</databaseSchemaOwner>
+    <databaseOwnerConfigLocation>${project.build.directory}/database/migrations/oracle/${databaseSchemaOwner}</databaseOwnerConfigLocation>
+
+    <flywayConfigFilename>flyway.conf</flywayConfigFilename>
+    <flywayDisallowClean>true</flywayDisallowClean>
+
+    <!-- plugin configuration - local values -->
+    <assembly-plugin.descriptor>${project.basedir}/src/main/assembly/assembly.xml</assembly-plugin.descriptor>
+  </properties>
+
+  <build>
+    <plugins>
+
+      <plugin>
+        <groupId>org.flywaydb</groupId>
+        <artifactId>flyway-maven-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>owner-clean-build</id>
+            <phase>none</phase>
+          </execution>
+          <execution>
+            <id>appuser-upgrade</id>
+            <phase>none</phase>
+          </execution>
+          <execution>
+            <id>appuser-clean-build</id>
+            <phase>none</phase>
+          </execution>
+          <execution>
+            <id>readonly-upgrade</id>
+            <phase>none</phase>
+          </execution>
+          <execution>
+            <id>readonly-clean-build</id>
+            <phase>none</phase>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-antrun-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>copy-appuser-flyway-config</id>
+            <phase>none</phase>
+          </execution>
+          <execution>
+            <id>copy-readonly-flyway-config</id>
+            <phase>none</phase>
+          </execution>
+        </executions>
+      </plugin>
+
+      <!-- Use assembly to configure artifact as .zip -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>build-database-zip</id>
+            <phase>none</phase>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
+</project>

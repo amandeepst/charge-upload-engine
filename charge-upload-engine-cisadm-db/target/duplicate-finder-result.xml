@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<duplicate-finder-result version="1">
+    <project artifactId="charge-upload-engine-cisadm-db" groupId="com.worldpay.pms" version="1.0.43-SNAPSHOT" type="jar"/>
+    <configuration skip="false" quiet="false" checkCompileClasspath="true" checkRuntimeClasspath="true" checkTestClasspath="true" failBuildInCaseOfDifferentContentConflict="false" failBuildInCaseOfEqualContentConflict="false" failBuildInCaseOfConflict="false" printEqualFiles="false" preferLocal="true" includeBootClasspath="false" bootClasspathProperty="sun.boot.class.path" includePomProjects="false" useDefaultResourceIgnoreList="true" useDefaultClassIgnoreList="true" useResultFile="true" resultFileMinClasspathCount="2" resultFile="C:\Users\tutejaa105\IdeaProjects\charge-upload-engine\charge-upload-engine-cisadm-db\target\duplicate-finder-result.xml">
+        <ignoredResourcePatterns>
+            <ignoredResourcePattern>.*changelog\.txt$</ignoredResourcePattern>
+        </ignoredResourcePatterns>
+        <ignoredClassPatterns/>
+        <conflictingDependencies/>
+        <ignoredDependencies/>
+    </configuration>
+    <results>
+        <result name="compile" conflictState="no-conflict" failed="false">
+            <conflicts/>
+            <ignoredResourcePatterns>
+                <ignoredResourcePattern>^META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^OSGI-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^licenses/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>.*license(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*notice(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*readme(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*third-party(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*package\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*overview\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*changelog\.txt$</ignoredResourcePattern>
+            </ignoredResourcePatterns>
+            <ignoredDirectoryPatterns>
+                <ignoredDirectoryPattern>^.git$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.svn$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.hg$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.bzr$</ignoredDirectoryPattern>
+            </ignoredDirectoryPatterns>
+            <ignoredClassPatterns>
+                <ignoredClassPattern>.*\$.*</ignoredClassPattern>
+            </ignoredClassPatterns>
+            <classpathElements type="classes"/>
+            <classpathElements type="resources"/>
+        </result>
+        <result name="runtime" conflictState="no-conflict" failed="false">
+            <conflicts/>
+            <ignoredResourcePatterns>
+                <ignoredResourcePattern>^META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^OSGI-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^licenses/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>.*license(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*notice(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*readme(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*third-party(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*package\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*overview\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*changelog\.txt$</ignoredResourcePattern>
+            </ignoredResourcePatterns>
+            <ignoredDirectoryPatterns>
+                <ignoredDirectoryPattern>^.git$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.svn$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.hg$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.bzr$</ignoredDirectoryPattern>
+            </ignoredDirectoryPatterns>
+            <ignoredClassPatterns>
+                <ignoredClassPattern>.*\$.*</ignoredClassPattern>
+            </ignoredClassPatterns>
+            <classpathElements type="classes"/>
+            <classpathElements type="resources"/>
+        </result>
+        <result name="test" conflictState="no-conflict" failed="false">
+            <conflicts/>
+            <ignoredResourcePatterns>
+                <ignoredResourcePattern>^META-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^OSGI-INF/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>^licenses/.*</ignoredResourcePattern>
+                <ignoredResourcePattern>.*license(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*notice(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*readme(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*third-party(\.txt)?$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*package\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*overview\.html$</ignoredResourcePattern>
+                <ignoredResourcePattern>.*changelog\.txt$</ignoredResourcePattern>
+            </ignoredResourcePatterns>
+            <ignoredDirectoryPatterns>
+                <ignoredDirectoryPattern>^.git$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.svn$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.hg$</ignoredDirectoryPattern>
+                <ignoredDirectoryPattern>^.bzr$</ignoredDirectoryPattern>
+            </ignoredDirectoryPatterns>
+            <ignoredClassPatterns>
+                <ignoredClassPattern>.*\$.*</ignoredClassPattern>
+            </ignoredClassPatterns>
+            <classpathElements type="classes"/>
+            <classpathElements type="resources"/>
+        </result>
+    </results>
+</duplicate-finder-result>

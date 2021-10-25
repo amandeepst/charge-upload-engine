@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <move file="C:\Users\tutejaa105\IdeaProjects\charge-upload-engine\charge-upload-engine-cisadm-db\target/database/migrations/oracle/CISADM/flyway.conf.template" tofile="C:\Users\tutejaa105\IdeaProjects\charge-upload-engine\charge-upload-engine-cisadm-db\target/database/migrations/oracle/CISADM/flyway.conf"/>
+</target>
+</project>
