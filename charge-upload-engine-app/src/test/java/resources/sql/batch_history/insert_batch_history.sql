@@ -1,0 +1,23 @@
+INSERT
+INTO batch_history
+  (
+    batch_code,
+    attempt,
+    state,
+    watermark_low,
+    watermark_high,
+    comments,
+    metadata,
+    created_at
+  )
+  VALUES
+  (
+    :batch_code,
+    :attempt,
+    :state,
+    :watermark_low,
+    :watermark_high,
+    :comments,
+    :metadata,
+    :created_at
+  )

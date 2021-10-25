@@ -1,0 +1,1 @@
+delete from error_transaction where trim(txn_header_id) = :txnHeaderId

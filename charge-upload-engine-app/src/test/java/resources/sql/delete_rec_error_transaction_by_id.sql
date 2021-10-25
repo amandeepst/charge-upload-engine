@@ -1,0 +1,1 @@
+delete from cm_rec_chg_err where trim(txn_header_id) = :txnHeaderId

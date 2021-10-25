@@ -1,0 +1,1 @@
+DELETE FROM batch_history WHERE batch_code = :batch_code
