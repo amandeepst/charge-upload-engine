@@ -1,0 +1,1 @@
+SELECT trim(bill_period_cd) FROM ci_bill_period

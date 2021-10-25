@@ -1,0 +1,2 @@
+reporter: com.uber.profiling.reporters.FileOutputReporter
+metricInterval: 5000

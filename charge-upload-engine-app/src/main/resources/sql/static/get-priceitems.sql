@@ -1,0 +1,1 @@
+SELECT trim(priceitem_cd) FROM ci_priceitem
