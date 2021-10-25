@@ -1,0 +1,1 @@
+drop view vw_completed_recurring_charge;
